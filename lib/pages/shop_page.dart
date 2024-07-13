@@ -28,6 +28,7 @@ class ShopPage extends StatelessWidget {
         ),
         // hotpicks
         const Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children:  [
             Text('Hot Picks 🔥', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),),
             Text('See all', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue),)
