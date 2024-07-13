@@ -29,8 +29,8 @@ class ShopPage extends StatelessWidget {
         // hotpicks
         const Row(
           children:  [
-            Text('Hot Picks 🔥'),
-            Text('See all')
+            Text('Hot Picks 🔥', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),),
+            Text('See all', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue),)
           ],
         )
       ],
