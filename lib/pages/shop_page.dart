@@ -29,7 +29,7 @@ class ShopPage extends StatelessWidget {
         // hotpicks
         const Row(
           children:  [
-            Text('Hot Picks'),
+            Text('Hot Picks 🔥'),
             Text('See all')
           ],
         )
